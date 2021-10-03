@@ -5,8 +5,8 @@ const MongoClient = require('mongodb').MongoClient;
 const ObjectId = require('mongodb').ObjectId;
 const fileUpload = require('express-fileupload');
 require('dotenv').config()
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.zxda5.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
-
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.czzkl.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
+//mongodb+srv://Abir:<password>@cluster0.czzkl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 const app = express()
 
 app.use(bodyParser.json());
